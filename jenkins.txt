@@ -1,10 +1,4 @@
-1. Jenkins objectives
 
-it is an open source tools
-contineous build with mavan or gradle
-run a shell script 
-contineous testing
-archive the build results 
 
 
 the true cost of software 
