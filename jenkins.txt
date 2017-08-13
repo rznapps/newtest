@@ -1,0 +1,102 @@
+1. Jenkins objectives
+
+it is an open source tools
+contineous build with mavan or gradle
+run a shell script 
+contineous testing
+archive the build results 
+
+
+the true cost of software 
+
+2. jenkins installation 
+
+download the war file 
+download the msi file for installation 
+go to desktop
+run the war file 
+#  java -jar jenkins.war --httpPort=8081
+if 8080 is closed 
+
+# go to the port it will look for adminastrative password 
+get the adminastrative password from .jenkins folder 
+use the password to setup jenkins 
+
+# go to the link
+http://localhost:8081/
+
+3. jenkins configuration 
+
+so many interrelation, 
+need to set up java and maven path 
+
+you can setup smtp email server to get email notifications 
+
+global configuration to use for new versions 
+set java home path
+maven home path
+ant home path 
+
+4. securing jenkins 
+
+show them the configuration, how to create user
+admin was already created when installation 
+
+5. jenkins plugin managment 
+maven, git 
+
+6. create a maven project and run it 
+need to configure it to get the locaiton of pom.xml
+setup testng xml in pom.xml file 
+
+7. building a git project using jenkins 
+
+8. scheduling builds 
+minute - minutes in an hour (0-59)
+hours- hours in a day (0-23)
+daymonth- days in a month (1-31)
+month- months in a year (1-12)
+dayweek - day of week (0-7) , 0 and 7 are sunday 
+
+
+this will run every minute, all the time:
+
+*****
+
+this will run at minute zero 
+0 
+
+this will also run hourly but run at minute 15 instead (00:15,01:15,)
+ 15 ****
+
+this will run once a day at 2:30
+
+30 2 ***
+
+
+maven command 
+
+test -Ptestname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
